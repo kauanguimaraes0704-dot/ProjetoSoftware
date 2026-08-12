@@ -1,0 +1,14 @@
+import Entidades.Conta;
+
+public class main {
+
+    public static void main(String[] args) {
+        Conta conta = new Conta("João", 0 ,"1", "10");
+
+        System.out.println(conta.getSaldo());
+        conta.setNome("John");
+        System.out.println(conta.toString());
+
+
+    }
+}
