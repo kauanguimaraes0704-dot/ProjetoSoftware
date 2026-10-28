@@ -1,0 +1,1 @@
+console.log("Eventify iniciado com sucesso!");
